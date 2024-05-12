@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>HelpCenterAPP</display-name>
+  <welcome-file-list>
+    <welcome-file>/landingfaqlist</welcome-file>
+  </welcome-file-list>
+  
+    <servlet>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <servlet-class>web.ManageTicketServlet</servlet-class>
+    </servlet>
+    
+
+
+   
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/new</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/insert</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/delete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/update</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageTicketServlet</servlet-name>
+        <url-pattern>/list</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <servlet-class>web.ManageReviewServlet</servlet-class>
+    </servlet>
+    
+    
+        <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/newrv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/insertrv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/deleterv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/editrv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/updaterv</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageReviewServlet</servlet-name>
+        <url-pattern>/rvlist</url-pattern>
+    </servlet-mapping>
+    
+    
+         <servlet>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <servlet-class>web.ManageFaqServlet</servlet-class>
+    </servlet>
+    
+    
+        <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/newfaq</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/insertfaq</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/deletefaq</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/editfaq</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/updatefaq</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/faqlist</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/homefaqlist</url-pattern>
+    </servlet-mapping>
+            <servlet-mapping>
+        <servlet-name>ManageFaqServlet</servlet-name>
+        <url-pattern>/landingfaqlist</url-pattern>
+    </servlet-mapping>
+    
+        
+         <servlet>
+        <servlet-name>OrderServlet</servlet-name>
+        <servlet-class>web.OrderServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/orderlist</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/deleteorder</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/editorder</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/updateorder</url-pattern>
+    </servlet-mapping>
+        <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/neworder</url-pattern>
+    </servlet-mapping>
+            <servlet-mapping>
+        <servlet-name>OrderServlet</servlet-name>
+        <url-pattern>/insertorder</url-pattern>
+    </servlet-mapping>
+    
+    
+     <servlet>
+        <servlet-name>UserOrderServlet</servlet-name>
+        <servlet-class>web.UserOrderServlet</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>UserOrderServlet</servlet-name>
+        <url-pattern>/userorderlist</url-pattern>
+    </servlet-mapping>
+    
+    
+        <servlet>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <servlet-class>web.UserTicketServlet</servlet-class>
+    </servlet>
+    
+   
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/newuserticket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/insertuserticket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/deleteuserticket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/edituserticket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/updateuserticket</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserTicketServlet</servlet-name>
+        <url-pattern>/userticketlist</url-pattern>
+    </servlet-mapping>
+    
+            <servlet>
+        <servlet-name>AddReviewServlet</servlet-name>
+        <servlet-class>web.AddReviewServlet</servlet-class>
+    </servlet>
+    
+   
+    <servlet-mapping>
+        <servlet-name>AddReviewServlet</servlet-name>
+        <url-pattern>/adduserreview</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+
+  
+  
+</web-app>
